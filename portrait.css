@@ -27,7 +27,6 @@ body {
     background-color: #1E1E32;
     width: 90%;
     height: 350px;
-    padding: 10px;
 }
 
 
@@ -100,4 +99,12 @@ h2 {
 #container #divResultado table tr{
     height: 30px;
     border-bottom: 1px solid var(--cor02);
+}
+#container #divResultado button {
+    width: 50%;
+    height: 40px;
+    background-color: var(--cor01);
+    border: none;
+    color: white;
+    margin-bottom: 10px;
 }
