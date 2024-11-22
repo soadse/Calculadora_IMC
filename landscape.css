@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #090E21;
+    color: white;
+}
+#container {
+    display: none;
+}
