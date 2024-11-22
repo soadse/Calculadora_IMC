@@ -8,19 +8,19 @@
     <title>Calculadora de IMC</title>
 </head>
 <body>
-    <form id="container">
+    <div id="container">
         <div id="divPrincipal">
             <h2>Calculadora de IMC</h2>
             <div class="informe altura">
                 <label for="">Altura:</label>
-                <input type="number" placeholder="Exemplo 1,75" required>
+                <input type="number" placeholder="Exemplo 1,75" required id="altura">
             </div>
             <div class="informe peso">
                 <label for="">Peso:</label>
-                <input type="number" placeholder="Exemplo 70,5" required>
+                <input type="number" placeholder="Exemplo 70,5" required id="peso">
             </div>
             <div id="btn">
-                <input type="submit" value="CALCULAR" >
+                <input type="submit" value="CALCULAR" id="calcular" >
                 <input type="reset" value="LIMPAR">
             </div>
         </div>
@@ -28,8 +28,8 @@
 
         <div id="divResultado">
             <div>
-                <h2>Seu IMC: <span></span></h2>
-                <p>Situação atual: <span></span></p>
+                <h2>Seu IMC: <span id="resultadoIMC"></span></h2>
+                <p>Situação atual: <span id="situacao"></span></p>
                 <p>Confira as classificações</p>
             </div>
             <table>
@@ -70,7 +70,7 @@
             </table>
             <button>VOLTAR</button>
         </div>
-    </form>
+    </div>
     
 </body>
 </html>
