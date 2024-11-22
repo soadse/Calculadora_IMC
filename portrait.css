@@ -107,6 +107,9 @@ body {
     flex-direction: column;
     text-align: center;
 }
+#container #divResultado h2 {
+    margin-top: 30px;
+}
 #container #divResultado h2, p {
     margin-bottom: 10px;
 }

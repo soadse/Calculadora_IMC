@@ -54,6 +54,8 @@ limpar.addEventListener('click', () => {
 })
 
 voltar.addEventListener('click', () => {
+    altura.value = ''
+    peso.value = ''
     divResultado.style.display = 'none'
     divPrincipal.style.display = 'flex'
 })
