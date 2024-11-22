@@ -4,6 +4,7 @@ body {
     height: 100vh;
     background-color: #090E21;
     color: white;
+    overflow: hidden;
 }
 #container {
     display: none;
