@@ -12,7 +12,7 @@ body {
     align-items: center;
     background-color: #090E21;
     color: white;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 
