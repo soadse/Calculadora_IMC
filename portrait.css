@@ -41,6 +41,9 @@ body {
     align-items: center;
     flex-direction: column;
 }
+#container #divPrincipal h2 {
+    margin-top: 30px;
+}
 #container #divPrincipal .informe {
     width: 80%;
     display: flex;
@@ -84,8 +87,12 @@ body {
 #container #divPrincipal #btn input[type="reset"]:hover {
     background-color: #404042bd;
 }
-h2 {
-    margin-top: 30px;
+#container #divPrincipal a {
+    text-decoration: none;
+    color: var(--cor02);
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 
 
@@ -94,7 +101,7 @@ h2 {
 #container #divResultado {
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
     justify-content: start;
     align-items: center;
     flex-direction: column;
@@ -102,6 +109,9 @@ h2 {
 }
 #container #divResultado h2, p {
     margin-bottom: 10px;
+}
+#container #divResultado div #situacao {
+    font-weight: bolder;
 }
 #container #divResultado table {
     border-collapse: collapse;
