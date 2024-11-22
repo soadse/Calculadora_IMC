@@ -26,7 +26,7 @@ body {
 #container {
     background-color: #1E1E32;
     width: 90%;
-    height: 430px;
+    height: 420px;
 }
 
 
@@ -91,18 +91,9 @@ h2 {
     flex-direction: column;
     text-align: center;
 }
-
-
-
-
 #container #divResultado h2, p {
     margin-bottom: 10px;
 }
-
-
-
-
-
 #container #divResultado table {
     border-collapse: collapse;
     margin-top: 15px;
@@ -111,6 +102,9 @@ h2 {
 #container #divResultado table tr{
     height: 30px;
     border-bottom: 1px solid var(--cor02);
+}
+#container #divResultado table tbody .primeiro {
+    text-align: start;
 }
 
 
