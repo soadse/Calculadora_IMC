@@ -94,6 +94,18 @@ body {
     margin-top: 50px;
     font-size: 1.2rem;
     font-weight: bolder;
+    animation: colors 2s infinite;
+}
+@keyframes colors {
+    0% {
+        color: var(--cor01);
+    }
+    50% {
+        color: var(--cor02);
+    }
+    100% {
+        color: var(--cor01);
+    }
 }
 
 
